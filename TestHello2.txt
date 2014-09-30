@@ -1,0 +1,7 @@
+Testing adding another file...
+TestHello2.txt
+git add TestHello2.txt
+git commit
+git push
+
+These commands seemed to work
