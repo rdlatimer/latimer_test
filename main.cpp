@@ -2,8 +2,9 @@
  * File:   main.cpp
  * Author: Randy
  *
- * Created on September 30, 2014, 9:21 AM
+ * Created on September 30, 2014, 10:22 AM
  */
+
 #include "PaleoMCMC.h"
 #include <iostream>
 
@@ -66,15 +67,15 @@ comatrix[i][j]		: compatibility of character i and character j.
 *****************************************************************************************************/
 
 
+
+#include <cstdlib>
+
 using namespace std;
 
 /*
  * 
  */
-#include <cstdlib>
-
 int main(int argc, char** argv) {
-    
         int		a, c, i, r, s, t;
 int		ch;
 //double	*margin, *marginch, **margins;
@@ -114,10 +115,10 @@ double	met_hast;
 //int		nst[15];
 
 
-cout <<"\n";
-    
-    cout << "Hello world\n";
-    //x=pow(e,(-1*2*(0.01*1)+(0.05*1.05)));
+cout << "\n";
+    cout << "Hello world ... CPP Version!\n";
+
+        //x=pow(e,(-1*2*(0.01*1)+(0.05*1.05)));
     //y=exp(-1*2*(0.01*1)+(0.05*1.05));
 
     inapcode='-';
